@@ -39,6 +39,19 @@ This means that the logistic regression model:
 - Accurately identified a loan as high risk 563 times, confirming its ability to correctly classify high-risk loans.
 
 ### Classification Report:
+
+
+
+
+|                | Precision | Recall | F1-Score | Support |
+|----------------|-----------|--------|----------|---------|
+| **Healthy Loan**   | 1.00      | 0.99   | 1.00     | 18,765  |
+| **High Risk Loan** | 0.85      | 0.91   | 0.88     | 619     |
+|                |           |        |          |         |
+| **Accuracy**       |           |        | 0.99     | 19,384  |
+| **Macro Avg**      | 0.92      | 0.95   | 0.94     | 19,384  |
+| **Weighted Avg**   | 0.99      | 0.99   | 0.99     | 19,384  |
+
 - **Accuracy = 99%**
 
 #### Healthy Loan (0)
